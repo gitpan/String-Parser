@@ -1,0 +1,66 @@
+
+Parser Module
+
+Copyright (c) 1999 Dan Campbell <parser@danofsteel.com>. All rights reserved.
+This program is free software; you can redistribute it and/or
+modify it under the same terms as Perl itself.
+
+
+Some long-time REXX programmers switching to Perl find it difficult 
+to give up REXX's template-based parsing abilities.  This module is 
+my attempt to provide such parsing in Perl.  The documentation assumes 
+a familiarity with REXX parse statements.
+
+
+I tested this module on OS/2, Linux (RedHat 5.2), AIX, and OS/390.  It
+should work exactly the same on any platform.
+
+
+Installation:
+-------------
+
+
+  Linux, UNIX, etc.:
+  ------------------
+
+  tar -xzf String-Parser-1.00.tar.gz
+
+  perl Makefile.PL
+  make
+  make test
+  make install
+
+
+  AIX:
+  ----
+
+  zcat String-Parser-1.00.tar.Z | tar -xzf -
+
+  perl Makefile.PL
+  make
+  make test
+  make install
+
+
+  OS/390:
+  -------
+
+  pax -z -o from=ISO8859-1,to=IBM-1047 -rf String-Parser-1.00.tar.Z
+
+  perl Makefile.PL
+  make
+  make test
+  make install
+
+
+  OS/2,  Windows, etc.:
+  ---------------------
+
+  unzip Parser-1.00.zip
+
+  Put the file 'Parser.pm' in one of your Perl lib directories, or use
+  one of the many ways to get Perl programs to find modules.  I've read
+  that it's possible use the 'UNIX' method above to install modules on
+  OS/2 or Windows, but I've never done it.
+
+

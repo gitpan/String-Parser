@@ -1,0 +1,17 @@
+Revision history for Perl extension Parser.
+
+1.00  Sat Aug 27 1999
+      - original version; 
+
+1.01  Sat Sep 4 1999
+      - Fixed incorrect template parsing when a pattern is the 
+        first template item. 
+
+1.02  Sat Sep 4 1999
+      - Fixed incorrect handling of variable pattern in template 
+        when variable's value contains regex meta characters. 
+
+1.03  Sat Sep 6 1999
+      - Fixed incorrect handling of template when two or more
+        patterns are next to each other, or when last template
+        item is a pattern.

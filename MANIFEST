@@ -1,0 +1,14 @@
+Changes
+MANIFEST
+Makefile.PL
+Parser.pm
+README
+t/a.t
+t/b.t
+t/c.t
+t/d.t
+t/e.t
+t/f.t
+t/g.t
+t/h.t
+t/z.t
